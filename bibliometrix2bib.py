@@ -1,13 +1,11 @@
 '''
-This code transform a bibliometrix excel from R file into a .bib file again
+This code converts a .xlxs bibliometrix excel from R file into a .bib file 
 '''
 
 import pandas as pd
 import csv
 import sys
 
-folder_data = r"G:\Drives compartilhados\Tese de Doutorado - Lucimara\Bibliometric Review\Bib files\Bibliometrix-Export-File-2021-04-16.xlsx"
-base_filename = r'G:\Drives compartilhados\Tese de Doutorado - Lucimara\Bibliometric Review\Bib files/oi.bib'
 
 def xlsx2bib(folder_data,output):
     
