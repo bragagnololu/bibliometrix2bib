@@ -9,3 +9,7 @@ The function **xlsx2bib** takes two arguments:
 
     folder_data = bibliometrix_input.xlsx #path for the .xlsx bibliometrix file
     base_filename = output_refs.bib #output file (.bib)
+
+## System requirements
+    Python 3.0
+    pandas
