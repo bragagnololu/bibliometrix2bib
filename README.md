@@ -11,5 +11,5 @@ The function **xlsx2bib** takes two arguments:
     base_filename = output_refs.bib #output file (.bib)
 
 ## System requirements
-    Python 3.0
+    Python 3
     pandas
